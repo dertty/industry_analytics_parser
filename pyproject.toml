@@ -1,0 +1,15 @@
+[project]
+name = "industry_analytics_parser"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Aleksandr", email = "alex.iv.vad@gmail.com"},
+]
+dependencies = ["bs4>=0.0.2", "requests>=2.32.3", "ipykernel>=6.29.5"]
+requires-python = ">=3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
