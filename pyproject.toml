@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "Aleksandr", email = "alex.iv.vad@gmail.com"},
 ]
-dependencies = ["bs4>=0.0.2", "requests>=2.32.3", "ipykernel>=6.29.5", "tqdm>=4.67.1", "PyPDF2>=3.0.1", "pdfminer-six>=20231228", "pdfplumber>=0.11.5", "pdf2image>=1.17.0", "Pillow>=11.1.0", "html2text>=2024.2.26", "langchain-community>=0.3.18", "pypdf>=5.3.1", "openai>=1.65.2", "tiktoken>=0.9.0", "langchain-openai>=0.3.7", "selenium>=4.31.0"]
+dependencies = ["bs4>=0.0.2", "requests>=2.32.3", "ipykernel>=6.29.5", "tqdm>=4.67.1", "PyPDF2>=3.0.1", "pdfminer-six>=20231228", "pdfplumber>=0.11.5", "pdf2image>=1.17.0", "Pillow>=11.1.0", "html2text>=2024.2.26", "langchain-community>=0.3.18", "pypdf>=5.3.1", "openai>=1.65.2", "tiktoken>=0.9.0", "langchain-openai>=0.3.7", "selenium>=4.31.0", "pandas>=2.2.3", "fastparquet>=2024.11.0", "pyarrow>=20.0.0", "openpyxl>=3.1.5"]
 requires-python = ">=3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
